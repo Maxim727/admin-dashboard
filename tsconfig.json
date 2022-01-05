@@ -2,7 +2,18 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "src",
+    "paths": {
+      "@app/*":[
+        "app/*"
+      ],
+      "@src/*":[
+        "*"
+      ]
+    },
+    // "paths" to have quick access to files and shorten paths to files
+    // for ex. import { test } from '@app/test';
+    
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
