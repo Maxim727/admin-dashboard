@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  name: 'default',
+  name: 'def',
   firebase: {
     config: {
      apiKey: "AIzaSyAR-40bvp6jpBCxO2g4VvaoLrNs77nDyPc",
